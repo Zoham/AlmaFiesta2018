@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                app:srcCompat="@drawable/m_upbeat" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Upbeat"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:text="Group Acoustic Competition"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="While rock and metal are pretty wild, acoustic music holds its own charm. The melodious sounds of acoustic and semi- acoustic instruments, collaborated with ingenious fusions is exactly what ‘UpBeat’ brings to you."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Rules:
+\nRounds : 1 Round
+\nEligibility : Participation in the form of a group of 2-7 members only.
+\n• Participants are not allowed to use laptops or mixers or any other digital modifiers.
+\n• Only acoustic and semi - acoustic instruments are allowed. Synthesizer and bass guitar are allowed.
+\n• Each group will be allotted 15 minutes for performance (inclusive of sound check).
+\n• A drum kit, 5-6 microphones and sufficient input lines will be provided on stage. Other instruments are to be brought by participants.
+\n• Judging will be based on overall group performance.
+\n• Original compositions are welcome.
+\n• No pre-recorded music is allowed.
+\n• Judges’ decision will be final and binding."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Co-ordinators:
+\n• Himanshu Sharma - 8619111090
+\n• Shubham - 9406849610"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

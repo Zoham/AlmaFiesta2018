@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                app:srcCompat="@drawable/c_topsy" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Topsy Turvy"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:text="Group Dance Competition"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="It is a mesmerizing group dance event guaranteed to set your heart racing. Alma fiesta provides you a national platform to showcase your talent, your moves on a stage that can take you places. Participants throughout the nation to compete with, a great atmosphere filled with excitement and anticipation, a spectacular and extremely enthusiast audience and exciting prizes to top it all, topsy turvy promises to rock your world and give you memories for the rest of your life. Come, have fun and live your fantasies."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Rules:
+\n2 Rounds – Qualifying and Final
+\n• Stage setting time: 1.5 minutes (maximum).
+\n• Time limit: 5-10 minutes. Exceeding this will lead to penalization in marks.
+\n• Team limit : 22 + 2 CAs(for light and sound)
+\n• All dance forms are allowed.
+\n• Use of water, fire and glass is prohibited.
+\n• Audio track to be brought in .mp3 format, in a pen drive or a hard disk and should be submitted by group on the registration desk.
+\n• The songs must not contain any illicit or offensive language.
+\n• Any obscene action in the dance is prohibited and will lead to Disqualification.
+\n• Any specific requirements regarding lights and smoke must be discussed with coordinator well in advance.
+\n• Use of Voice Over(s) is allowed. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Co-ordinators:
+\n• Saurabh Verma - 9078814734
+\n• Vimal Sharma - 9938495702"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

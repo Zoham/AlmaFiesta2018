@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                app:srcCompat="@drawable/d_faceoff" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Face Off"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:text="Mono-Act Competition"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="A dramatic artist has complete independence to do whatever pleases him. All he needs is an Audience. Face-off is that kind of competition in which the contestants try to entertain the audience by showing off their skills in dramatics. Whatever they do, they do it to entertain people and convey their inward thoughts. If you share the same idea of expressing ones thoughts FACE OFF is completely open for you."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Rules:
+\n• Each contestant will be given a time limit of 8 minutes.
+\n• The contestants are allowed to do anything like Stand-up comedy, Mimicry, mime, Impromptu or any other skill they wish to perform.
+\n• This is strictly a Solo act competition.
+\n• The language of act is strictly prohibited to English/Hindi.
+\n• The contestants’ performances are scrutinized and are judged based upon the creativity, stage presence and interest shown in entertaining the crowd.
+\n• Instrumental music is allowed but the participants will have to bring their own instruments.
+\n• Microphones, lights and laptop to play sounds will be provided.
+\n• Naked flames or live animals are not allowed on stage.
+\n• Participants will have to bring their own music in CD/PD.
+\n• The judges might ask the contestants to perform something on the spot to test their skills.
+\n• The top three performances judged the jury gets to be the winners of the competition. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Co-ordinators:
+\n• Vaibhav Karn - 9078814719
+\n• Adwait Bangale - 9404451417"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

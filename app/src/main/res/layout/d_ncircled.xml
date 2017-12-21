@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                app:srcCompat="@drawable/d_ncircled" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="N Circled"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:text="Nukkad Natak Competition"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Sometimes when you are performing a play the audience don’t come to you, you have to go to them. Then this stage play act becomes a Street play act. Generally, Street plays are done on social issues causing awareness among all classes of people. Do you think the society is messed up with the plethora of anti-social activities and do you want make the people understand that they are also equally responsible for these. Then, N-CIRCLED is open for you, Come join us and make change."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Rules:
+\n• Group of maximum 22 members have to perform a Street Play of any genre.
+\n• The maximum time permitted for each play is 30 minutes.
+\n• Each group will be judged mainly on performance, script and various other aspects.
+\n• Music accompanists are included in the team size stated above.
+\n• Teams are expected to perform at the open air venue with audience on all sides.
+\n• Only live music is allowed. Teams will have to bring their own instruments.
+\n• Any vulgarity/obscenity will be strictly penalized and may lead to disqualification.
+\n• Any kind of fluids, live animals, flame, heavy and sharp objects or any other harmful material is STRICTLY not allowed.
+\n• Teams will be heavily penalised if they exceed the time limit.
+\n• Logistics should be self-arranged.
+\n• Each group will be judged mainly on performance, script and various other aspects. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Co-ordinators:
+\n• Vaibhav Karn - 9078814719
+\n• Preshit Wakhale - 8895745078"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="News" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Team" />
+    </group>
+
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@android:drawable/ic_input_get"
+        android:title="Events">
+
+        <menu>
+            <item
+                android:id="@+id/nav_music"
+                android:icon="@drawable/music"
+                android:title="Music" />
+            <item
+                android:id="@+id/nav_dance"
+                android:icon="@drawable/dance"
+                android:title="Dance" />
+            <item
+                android:id="@+id/nav_drams"
+                android:icon="@drawable/drams"
+                android:title="Dramatics" />
+            <item
+                android:id="@+id/nav_lito"
+                android:icon="@drawable/lito"
+                android:title="Literary" />
+            <item
+                android:id="@+id/nav_arts"
+                android:icon="@drawable/arts"
+                android:title="Fine Arts" />
+            <item
+                android:id="@+id/nav_quiz"
+                android:icon="@drawable/quiz"
+                android:title="Quizzes" />
+            <item
+                android:id="@+id/nav_film"
+                android:icon="@drawable/film"
+                android:title="Films and Photography" />
+        </menu>
+    </item>
+
+</menu>
